@@ -16,7 +16,7 @@ This code is provided for educational and informational purposes only. The autho
 7. The script will log all keystrokes until the file size reaches 1 MB, then upload the file to Dropbox and create a new file named keylogger2.txt.
 8. The script will continue to log keystrokes every 30 minutes and upload the files to Dropbox.
 
-Notes
+# Notes
 The script uses the pynput library to monitor keystrokes. Make sure to run the script with administrative privileges to allow access to keyboard input.
 The script requires a Dropbox access token to upload files. You can obtain an access token from the Dropbox Developer Console.
 The script logs keystrokes in plain text, so be careful not to enter sensitive information while the script is running.
