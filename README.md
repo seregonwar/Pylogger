@@ -2,7 +2,7 @@
 Keylogger
 A Python script that logs keystrokes and uploads them to Dropbox.
 
-Disclaimer
+# Disclaimer
 This code is provided for educational and informational purposes only. The author does not condone any illegal or unethical activities. The use of this code for any malicious or unlawful purpose is strictly prohibited. The author shall not be liable for any direct, indirect, or consequential damages arising from the use of this code. Users are solely responsible for compliance with all applicable laws, including but not limited to privacy laws such as the Italian Legislative Decree no. 196/2003 and Law no. 675/1996.
 
 # Installation
