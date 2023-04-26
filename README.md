@@ -11,7 +11,7 @@ Installing
 1. Clone the repository: git clone https://github.com/seregonwar/keylogger.git
 2. Install the required packages: pip install -r requirements.txt
 3. Add your Dropbox access token to the TOKEN variable in keylogger.py.
-
+.. code-block:: text
 # Usage
 5. Run the script: python keylogger.py
 6. The script will create a new file named keylogger1.txt in the same directory as the script.
