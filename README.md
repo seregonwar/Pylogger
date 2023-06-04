@@ -19,6 +19,16 @@ A Python script that logs keystrokes and uploads them to Dropbox.
 - The script requires a Dropbox access token to upload files. You can obtain an access token from the Dropbox Developer Console.
 - The script logs keystrokes in plain text, so be careful not to enter sensitive information while the script is running.
 
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
+## Acknowledgements
+
+This Keylogger was created by [Seregonwar](https://github.com/seregonwar) as a project for [Course/Workshop/Personal Learning].
+
+If you have any questions or need assistance, feel free to contact  [Seregonwar](https://github.com/seregonwar).
+
 ## Disclaimer
 
 <details>
@@ -43,12 +53,3 @@ A Python script that logs keystrokes and uploads them to Dropbox.
   9. By using the code or information provided in this repository, you agree to these terms and conditions and acknowledge that you have read and understood the disclaimer.
 </details>
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more information.
-
-## Acknowledgements
-
-This Keylogger was created by [Seregonwar](https://github.com/seregonwar) as a project for [Course/Workshop/Personal Learning].
-
-If you have any questions or need assistance, feel free to contact  [Seregonwar](https://github.com/seregonwar).
