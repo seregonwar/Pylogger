@@ -2,6 +2,12 @@
 import os
 import sys
 import argparse
+import time
+import pynput.keyboard as keyboard
+from datetime import datetime
+from dropbox.exceptions import AuthError
+from dropbox import DropboxOAuth2FlowNoRedirect, Dropbox
+from dropbox.files import WriteMode
 os.system ('npm install figlet')
 
 # Define GUI
@@ -25,14 +31,8 @@ gui = """
 
 
 
+ 
 
-import os   
-import time
-import pynput.keyboard as keyboard
-from datetime import datetime
-from dropbox.exceptions import AuthError
-from dropbox import DropboxOAuth2FlowNoRedirect, Dropbox
-from dropbox.files import WriteMode
 
 # install required packages
 os.system('pip install pynput')
